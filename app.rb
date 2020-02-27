@@ -16,5 +16,6 @@ class App < Sinatra::Base
       "#{params[:phrase]}"
       count += 1
     end
+    params[:phrase]
   end
 end
